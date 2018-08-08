@@ -1,0 +1,33 @@
+{
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "ts-example": "bin/cli"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/*.ts"
+  },
+  "dependencies": {
+    "mri": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.3",
+    "prettier": "^1.14.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^2.9.2"
+  },
+  "prettier": {
+    "printWidth": 89,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": false,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
+  }
+}
