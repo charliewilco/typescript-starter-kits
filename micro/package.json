@@ -1,0 +1,19 @@
+{
+  "name": "micro-typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node node_modules/.bin/micro",
+    "dev": "ts-node --typeCheck node_modules/.bin/micro-dev"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "micro-dev": "^3.0.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "micro": "^9.3.2",
+    "object-assign": "^4.1.1",
+    "query-string": "^6.1.0",
+    "ts-node": "^7.0.0"
+  }
+}
